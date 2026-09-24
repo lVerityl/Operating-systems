@@ -37,4 +37,4 @@ Bash
 Висновок:  
 We learnedf how to work with the GitHub platform, set up a shared repository for team work, and went over the main questions
 
->Commit Ліпкін Артем
+>Commit Ліпкін Артем КСМ-43б
