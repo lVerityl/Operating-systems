@@ -33,3 +33,8 @@ Bash
 
 Таким чином, комміти дозволяють відстежувати розвиток проєкту, визначати, які зміни були зроблені на певному етапі, та за необхідності повертатися до попередньої версії файла.
 >Commit Безродних Сані КСМ-43б
+
+Висновок:  
+We learnedf how to work with the GitHub platform, set up a shared repository for team work, and went over the main questions
+
+>Commit Ліпкін Артем
