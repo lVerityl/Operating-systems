@@ -297,20 +297,20 @@ apt install xfce4 xfce4-goodies
 ```
 Завдяки командам
 # 1. Перейти в root (sudo для sixseven не налаштований)
-su -
+'su -
 
 # 2. Оновити список пакетів
-apt update
+'''apt update
 
 # 3. Спроба встановити Xfce з додатковими утилітами (завершилась помилкою:
 #    пакет xfce4-goodies не знайдено)
-apt install xfce4 xfce4-goodies
+'''apt install xfce4 xfce4-goodies
 
 # 4. Встановлення базового Xfce (пройшло успішно)
-apt install xfce4
+'''apt install xfce4
 
 # 5. Перезавантаження
-reboot
+'''reboot
 прямо у GNOME
 
 Успішне встановлення `xfce4` (xfwm4, xfce4-panel, xfdesktop4, thunar).
@@ -340,6 +340,6 @@ reboot
 \* Обидві оболонки встановлені в одній системі, тому в сесії Xfce продовжують працювати фонові служби GNOME (gdm, dbus-сесії) і виміряне значення завищене. В ізольованій установці Xfce зазвичай легший за GNOME.
 
 ## Висновки
-У ході виконання лабораторної роботи встановлено гіпервізор II типу Oracle VirtualBox, вивчено базові дії з керування віртуальними машинами (створення ВМ, налаштування обладнання, мережі та зовнішніх носіїв). Встановлено дві віртуальні машини з ОС GNU/Linux: першу — у базовій конфігурації з графічною оболонкою (Ubuntu Desktop), другу — у мінімальній текстовій конфігурації (Debian netinst) з подальшим послідовним встановленням двох графічних оболонок — GNOME та Xfce.
-Порівняння показало, що GNOME пропонує сучасний, стилізований інтерфейс з обмеженою гнучкістю налаштувань без розширень, тоді як Xfce — це класичне, легке та значно гнучкіше в налаштуванні середовище, традиційно менш вимогливе до ресурсів у разі ізольованого встановлення. Вибір конкретної графічної оболонки залежить від апаратних можливостей робочої станції та вподобань користувача щодо стилю роботи.
+During the laboratory work, the Oracle VirtualBox Type-2 hypervisor was installed, and basic virtual machine management tasks—such as VM creation and the configuration of hardware, networking, and external storage—were explored. Two virtual machines running GNU/Linux were set up: the first with a standard configuration featuring an "out-of-the-box" graphical desktop environment (Ubuntu Desktop), and the second with a minimal text-based configuration (Debian netinst), followed by the sequential installation of two graphical desktop environments: GNOME and Xfce.
+The comparison showed that GNOME offers a modern, stylized interface with limited customization flexibility unless extensions are used, whereas Xfce is a classic, lightweight, and far more customizable environment that is traditionally less resource-intensive when installed in isolation. The choice of a specific desktop environment depends on the workstation's hardware capabilities and the user's workflow preferences.
 >Comitted by Клименко Назарій
