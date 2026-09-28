@@ -297,20 +297,26 @@ apt install xfce4 xfce4-goodies
 ```
 Завдяки командам
 # 1. Перейти в root (sudo для sixseven не налаштований)
-'su -
-
+```
+su -
+```
 # 2. Оновити список пакетів
-'''apt update
-
+```
+apt update
+```
 # 3. Спроба встановити Xfce з додатковими утилітами (завершилась помилкою:
 #    пакет xfce4-goodies не знайдено)
-'''apt install xfce4 xfce4-goodies
-
+```
+apt install xfce4 xfce4-goodies
+```
 # 4. Встановлення базового Xfce (пройшло успішно)
-'''apt install xfce4
-
+```
+apt install xfce4
+```
 # 5. Перезавантаження
-'''reboot
+```
+reboot
+```
 прямо у GNOME
 
 Успішне встановлення `xfce4` (xfwm4, xfce4-panel, xfdesktop4, thunar).
